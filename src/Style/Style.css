@@ -1,0 +1,74 @@
+/* Contact.css */
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 20px;
+}
+
+.contact-info,
+.visit-info {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* Aboutus css */
+
+.container {
+  width: 85vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 65%;
+  left: 25%;
+  overflow: hidden;
+  border: 20px solid #ffffff;
+  border-radius: 8px;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+.text-container {
+  top: 100%;
+  position: relative;
+  margin-bottom: 500px;
+}

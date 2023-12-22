@@ -1,0 +1,62 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: #fff;
+}
+
+.navbar-center button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black; /* Warna teks default tombol */
+  margin-right: 10px;
+}
+
+.navbar-center button.active {
+  color: orange; /* Warna teks tombol saat aktif */
+}
+
+.logo {
+  max-width: 50%;
+}
+
+.navbar-center {
+  display: flex;
+  color: black;
+  gap: 20px;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(0, 0, 0); /* Atur warna teks */
+  font-size: 16px; /* Atur ukuran teks */
+  margin-right: 20px; /* Atur jarak antara tombol */
+}
+
+#signup {
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  padding: 12px 30px; /* Sesuaikan ukuran padding */
+}
+
+#login {
+  background-color: rgb(77, 163, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  padding: 13px 30px; /* Sesuaikan ukuran padding */
+}

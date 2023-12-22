@@ -1,0 +1,14 @@
+.hero-container {
+  background-image: url("../../Images/hero.jpg");
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.hero-text {
+  margin-left: 120px;
+}
